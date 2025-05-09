@@ -18,10 +18,10 @@ class UserandAddress(BaseModel):
 user_data = {
     "id": 2,
     "name": "Bob",
-    "email": "bob@example.com",
+    "email": "nida@example.com",
     "addresses": [
-        {"street": "123 Main St", "city": "New York", "zip_code": "10001"},
-        {"street": "456 Oak Ave", "city": "Los Angeles", "zip_code": "90001"},
+        {"street": "123 saima", "city": "islamabad", "zip_code": "20091"},
+        {"street": "afnan arcade", "city": "karachi", "zip_code": "456001"},
     ],
 }
 user = UserandAddress.model_validate(user_data)
@@ -31,10 +31,10 @@ print(user)
 user_data = {
     "id": 2,
     "name": "Bob",
-    "email": "bob@example",
+    "email": "nidz@example",
     "addresses": [
-        {"street": "123 Main St", "city": "New York", "zip_code": "10001"},
-        {"street": "456 Oak Ave", "city": "Los Angeles", "zip_code": "90001"},
+         {"street": "123 saima", "city": "islamabad", "zip_code": "20091"},
+        {"street": "afnan arcade", "city": "karachi", "zip_code": "456001"},
     ],
 }
 try:

@@ -1,4 +1,4 @@
-from pydantic import BaseModel,validators,EmailStr
+from pydantic import BaseModel,EmailStr
 class person(BaseModel):
     name: str
     age: int
